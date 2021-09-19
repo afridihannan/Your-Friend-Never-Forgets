@@ -1,17 +1,13 @@
-import { Grow } from '@material-ui/core';
 import './App.css';
-import memories from './Components/Images/memories.png'
+import Post from './Actions/Post';
+import './index.css';
+import Header from './Actions/Header';
 
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="head">
-          <h2>Memories</h2>
-          <img src={memories} />
-        </div>
-        
-      </div>
+     <Header/>
+      <Post/>
     </>
   );
 }
