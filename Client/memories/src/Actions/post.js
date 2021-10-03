@@ -1,12 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-//import Social from './Social'
-//import Image from './Image'
 import Hannan from '../Api/Index'
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
+// hello world
 function Trav(props) {
     let iconstyle = {
         fontSize: "45px",
